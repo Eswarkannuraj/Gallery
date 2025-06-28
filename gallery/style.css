@@ -1,0 +1,33 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+.gallery{
+  background-color: rgb(243, 194, 194);
+  margin-bottom:30px
+}
+.gallery p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 20% 10px 20%;
+  border-bottom: solid 4px rgb(143, 83, 255);
+}
+.gallery__container {
+  display: flex;
+  flex-wrap:wrap;
+  margin: 8px 10% 8px 10%;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.gallery__container img{
+  height: 300px;
+  width:18%;
+  object-fit: cover;
+  border: black solid 2px;
+  margin: 12px;
+}
+
